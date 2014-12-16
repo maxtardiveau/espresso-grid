@@ -3,16 +3,16 @@
 A ready to edit grid for tables and resources created by an Espresso Logic API, using a modern approach to iframes.
 
 ### Getting Started
-Outputting an extensible grid starts with loading the library, creating an iframe, and initializing the espressoFrames, which can be done with five lines of code:
+Outputting an extensible grid starts with loading the library, creating an iframe, and initializing the espressoGrid, which can be done with five lines of code:
 ```	
-<script src="espresso-frames.js"></script>
-<script>var frame = espressoFrames.init({id: 'iframeId'});</script>
-<iframe id="iframeId" src="https://block.espressologic.com"></iframe>
+<script src="https://eval.espressologic.com/grid/espresso-grid.min.js"></script>
+<script>var frame = espressoGrid.init({id: 'uniqueID'});</script>
+<iframe id="uniqueID" src="https://eval.espressologic.com/grid/?gridID=uniqueID"></iframe>
 ```
 The default grid without an auth config object attribute is a readonly instance of our Espresso Demo API. The configuration object allows for a lot more container control, of course, and includes parameters for manipulating everything from grid styles to grid controls.
 ```javascript
-var frame = espressoFrames.init({
-	id: 'iframeId',
+var grid = espressoGrid.init({
+	id: 'uniqueID',
 	auth: {
 		username: 'demo',
 		password: 'Password1',

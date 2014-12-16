@@ -1,10 +1,10 @@
 (function () {
-	var espressoFrames = {
+	var espressoGrid = {
 		events: transit,
 		replies: {},
 		config: {},
 		init: function (config) {
-			var frame = $.extend({}, espressoFrames);
+			var frame = $.extend({}, espressoGrid);
 			transit.on('startup', function (event, data, source) {
 				transit.broadcast('init', config, source);
 			});
@@ -19,6 +19,6 @@
 		},
 	};
 	
-	window.espressoFrames = espressoFrames;
-	return espressoFrames;
+	window.espressoGrid = espressoGrid;
+	return espressoGrid;
 })();
