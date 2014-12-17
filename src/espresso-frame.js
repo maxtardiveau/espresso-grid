@@ -17,6 +17,12 @@
 		reply: function (eventName, data) {
 			transit.reply(eventName, data, '#' + this.config.id)
 		},
+		on: function (eventName, callback) {
+			transit.on(eventName, callback, '#' + this.config.id);
+		},
+		broadcast: function (eventName, data) {
+			transit.broadcast(eventName, data, '#' + this.config.id);
+		}
 	};
 	
 	window.espressoGrid = espressoGrid;
