@@ -1,10 +1,11 @@
 #Espresso Grid
 
-A ready to edit grid for tables and resources created by an Espresso Logic API, using a modern approach to iframes.
+A ready to edit grid for tables and resources created by an Espresso Logic API, using a modern approach to iframes. For the complete documentation, view our [docs](http://docs.espressologic.com/espresso-grid), or to see it in action, download our [Espresso Grid Demo](https://github.com/EspressoLogicCafe/grid-demo).
 
 ### Getting Started
 Outputting an extensible grid starts with loading the library, creating an iframe, and initializing the espressoGrid, which can be done with five lines of code:
 ```	
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="https://eval.espressologic.com/grid/espresso-grid.min.js"></script>
 <script>var frame = espressoGrid.init({id: 'uniqueID'});</script>
 <iframe id="uniqueID" src="https://eval.espressologic.com/grid/?gridID=uniqueID"></iframe>
