@@ -17,7 +17,7 @@ var grid = espressoGrid.init({
 		username: 'demo',
 		password: 'Password1',
 		apiBase: 'https://eval.espressologic.com/rest/livedemo/demo/v1',
-		endpoint: 'demo:customer'
+		endpoint: 'customer'
 	},
 	columns: [{field:'name', displayName:'Name'}],
 	controls: {
