@@ -35,3 +35,9 @@ var grid = espressoGrid.init({
 	//js: { jsFileHandle: '//yourFileSrc.js' }
 });
 ```
+
+###Next Steps
+
+got to docs
+look at the grid-demo
+register here
