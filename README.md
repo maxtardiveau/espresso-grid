@@ -30,14 +30,13 @@ var grid = espressoGrid.init({
 		del: true
 	},
 	controlBox: 'bottom',
+	gridOptions: { multiSelect: false },
 	parentControls: { search:true, fetch: true },
 	//css: { cssFileHandle: '//yourFileHref.css' },
 	//js: { jsFileHandle: '//yourFileSrc.js' }
 });
 ```
 
-###Next Steps
+###Do More With Your Grid
 
-got to docs
-look at the grid-demo
-register here
+Grids supporting pagination, search, and edit are not easy. We have attempted to do the heavy lifting with Espresso Grid, so other developers can get to the functionality that really matters to them. Please visit the [documentation page](http://docs.espressologic.com/espresso-grid) for more information, or for a sample of how to use it, see [Grid Demo](https://github.com/EspressoLogicCafe/grid-demo), and finally we invite you to register and create your API with your own data at [Espresso Logic](https://espressologic.com).
